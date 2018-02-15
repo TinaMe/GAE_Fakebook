@@ -1,0 +1,78 @@
+body {
+  background-image: url("flowers.jpg");
+}
+
+h1{
+  color: navy;
+  font-size: 40px;
+  border: solid;
+  border-radius:15px;
+  width: 240px;
+  background-color: lightblue;
+  text-align: center;
+  margin:auto;
+  -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+  }
+
+h1:hover{
+    -webkit-transform: translate(3em,0);
+    -moz-transform: translate(3em,0);
+    -o-transform: translate(3em,0);
+    -ms-transform: translate(3em,0);
+    transform: translate(3em,0);
+}
+
+#search{
+  border: inset pink;
+  border-radius: 3px;
+  width: 240px;
+  text-align: center;
+  margin: auto;
+}
+
+h2{
+  color: gray;
+  font-size: 30px;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+
+}
+
+img{
+  border: solid;
+  border-color: gray;
+  margin: auto;
+  display: block;
+}
+
+img:hover{
+  border: dotted;
+  border-radius: 50%;
+  border-color: gray;
+}
+
+li{
+  font-style: italic;
+  margin: auto;
+}
+
+strong{
+  font-style: bold;
+}
+
+p{
+  font-size: 18px;
+}
+
+#contact-me {
+  text-align: center;
+}
+
+.list{
+  margin: auto;
+  width: 150px;
+}
